@@ -1,0 +1,9 @@
+colores: up, down, left, right .
+empieza la compu con su turno.
+elije un numero al azar, que significa un color.
+muestra el color y despues va el turno del jugador
+tiene que marcar el mismo color 
+    si no marca el mismo , pierde
+si marca el mismo, turno de la compu
+repite la secuencia y le agrega un color mas 
+turno del jugador que tiene que repetir todo .
