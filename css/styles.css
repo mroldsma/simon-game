@@ -19,8 +19,8 @@
     margin: 0px auto;
     text-align: center;
     align-items: center;
-    width: 600px;
-    height: 600px;
+    width: 80vh;
+    height: 80vh;
     border-radius: 50%;
     position: relative;
     border: 7px solid black;
@@ -31,28 +31,32 @@
     margin: 0;
     position: absolute;
     background-color: rgb(88, 88, 88);
-    width: 300px;
-    height: 300px;
+    width: 40vh;
+    height: 40vh;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border: 7px solid black;
+    align-items: center;
+    
 }
 
-#up{
-    width: 300px;
-    height: 300px;
+
+#up-green{
+    width: 40vh;
+    height: 40vh;
     background-color: var(--darkgreen);
-    border-top-left-radius: 100%;
+    border-radius: 250px 0 0 0;
     top: 0;
     left: 0;
+    border: 3px solid #000000;
 }
 
-#right{
-    width: 300px;
-    height: 300px;
+#right-red{
+    width: 40vh;
+    height: 40vh;
     background-color: var(--darkred);
     position: absolute;
     top: 0;
@@ -60,9 +64,9 @@
     border-top-right-radius: 100%;
 }
 
-#down{
-    width: 300px;
-    height: 300px;
+#down-blue{
+    width: 40vh;
+    height: 40vh;
     background-color: var(--darkblue);
     position: absolute;
     bottom: 0;
@@ -70,9 +74,9 @@
     border-bottom-right-radius: 100%;
 }
 
-#left{
-    width: 300px;
-    height: 300px;
+#left-yellow{
+    width: 40vh;
+    height: 40vh;
     background-color: var(--darkyellow);
     position: absolute;
     bottom: 0;
